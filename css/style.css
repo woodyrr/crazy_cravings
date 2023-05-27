@@ -14,6 +14,22 @@ body{
     background:rgba(160, 255, 160, 0.082) ;
 }
 
+@media only screen and (max-width: 1376px) and (min-width: 1076px) {
+    .right-nave{
+        display: none;
+    }
+    body .bro .right-nav{
+        margin-top: 10px;
+        margin-left: 82%;
+    }
+    .bro .hidden:hover{
+        width: 220px;
+        transition: all 0.5s ease;
+    }
+    
+    
+        
+}
 @media only screen and (max-width: 1075px){
 
     .hidden{
@@ -37,7 +53,7 @@ body{
     padding: 6px 0 0 15px; 
     }
     .logo img{
-        display: none;
+    display: none;
     width: 100%;
     height: 50px;
     margin-top:20px ;
@@ -175,9 +191,6 @@ body{
 }
 
 @media only screen and (min-width: 1076px){
-    .wap{
-        display: none;
-    }
     .top-nav,.left-nav{
         display: none;
     }
@@ -337,6 +350,7 @@ body{
         top:1px;
         padding: 10px 25px;
         margin-left: 80%;
+        margin-top: 10px;
         border-radius: 20px;
         background-color: #a7c783;
     }
@@ -344,7 +358,8 @@ body{
         position:fixed;
         top:1px;
         padding: 10px 25px;
-        margin-left: 86%;
+        margin-left: 86.5%;
+        margin-top: 10px;
         border-radius: 20px;
         background-color: #a7c783;
         border-style: none;
